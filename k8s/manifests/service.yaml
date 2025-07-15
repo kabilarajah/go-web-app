@@ -8,5 +8,5 @@ spec:
     app: go-web-app
   ports:
     - protocol: TCP
-      port: 8008
+      port: 4040
       targetPort: 8080
