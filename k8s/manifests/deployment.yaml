@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: abishekf5/go-web-app:v1
+        #image: abishekf5/go-web-app:v1
+        image: yeasy/simple-web:latest
         ports:
         - containerPort: 8080
